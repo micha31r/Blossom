@@ -397,6 +397,7 @@ hr {
 .more img {
 	width: 100%;
 	border: 1px solid #DDD;
+	box-sizing: border-box;
 }
 
 .more a {
