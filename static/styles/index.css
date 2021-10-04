@@ -380,6 +380,7 @@ hr {
 .more .flex {
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
 	margin: 0 -80px -80px 0;
 }
 
