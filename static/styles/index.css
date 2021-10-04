@@ -364,6 +364,10 @@ hr {
 
 /* More section */
 
+.more {
+	overflow: hidden;
+}
+
 .more .heading {
 	font-weight: 900;
 	font-size: 2.5em;
@@ -380,7 +384,6 @@ hr {
 .more .flex {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
 	margin: 0 -80px -80px 0;
 }
 
