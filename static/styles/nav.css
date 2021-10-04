@@ -1,0 +1,35 @@
+nav {
+	position: sticky;
+	top: 0;
+	background: #FFF;
+	border: 1px solid #CCC;
+	border-width: 0 0 1px;
+	padding: 20px;
+	z-index: 100;
+}
+
+nav .grid {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+}
+
+nav .logo {
+	max-width: 3em;
+}
+
+nav .flex {
+	display: flex;
+	margin: auto 0;
+}
+
+nav .center {
+	margin: auto auto;
+}
+
+nav .flex a {
+	font-family: dazzle-unicase, sans-serif;
+	font-size: 0.8em;
+	color: #000;
+	text-decoration: none;
+	margin: 0 25px;
+}

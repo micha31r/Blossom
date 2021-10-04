@@ -1,0 +1,103 @@
+footer {
+	background: #000;
+	color: #FFF;
+	padding: 80px 20px;
+}
+
+footer .grid {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	grid-column-gap: 40px;
+}
+
+footer .brand {
+	display: flex;
+	margin: 0 0 40px;
+}
+
+footer .brand span {
+	font-family: "dazzle-unicase", sans-serif;
+	font-size: 2em;
+	color: #FFF;
+}
+
+footer .brand * {
+	font-size: 2em;
+}
+
+footer .left p {
+	margin: 0;
+}
+
+footer .center {
+	margin: auto;
+}
+
+footer .center a {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #FFF;
+	margin: 0 0 20px;
+	text-decoration: none;
+}
+
+footer .center a:nth-last-child(1) {
+	margin: 0;
+}
+
+footer .subheading {
+	font-size: 1.2em;
+	margin: 0 0 20px;
+}
+
+footer form {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	grid-column-gap: 10px;
+	margin: 0 0 80px;
+}
+
+footer form input {
+	border: 2px solid #FFF;
+	border-width: 0 0 2px;
+	background: transparent;
+	color: #FFF;
+	padding: 10px;
+	margin: auto;
+}
+
+footer form input::placeholder {
+	color: #FFF;
+}
+
+footer form button {
+	font-size: 2em;
+	background: transparent;
+	border: 0;
+	margin: auto;
+}
+
+footer form button {
+	display: flex;
+}
+
+footer form button svg {
+	margin: auto;
+}
+
+footer .social {
+	display: grid;
+	width: max-content;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 10px;
+}
+
+footer .social a {
+	font-size: 2em;
+}
+
+footer .social a svg {
+	fill: #FFF;
+}
+
+
